@@ -78,6 +78,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     ColorPickerPreference mLavaLampColorFrom;
     ColorPickerPreference mLavaLampColorTo;
     SwitchPreference mLavaLampEnabled;
+    SwitchPreference mSmoothingEnabled;
     CustomSeekBarPreference mCustomDimen;
     CustomSeekBarPreference mCustomDiv;
     CustomSeekBarPreference mFilled;
@@ -142,6 +143,10 @@ public class PulseSettings extends SettingsPreferenceFragment implements
                 Settings.Secure.FLING_PULSE_LAVALAMP_ENABLED, 1, UserHandle.USER_CURRENT) == 1);
         mLavaLampEnabled.setOnPreferenceChangeListener(this);
 
+        mSmoothingEnabled = (SwitchPreference) findPreference("fling_smoothing_enabled");
+        mSmoothingEnabled.setChecked(Settings.Secure.getIntForUser(getContentResolver(),
+                Settings.Secure.FLING_PULSE_SMOOTHING_ENABLED, 0, UserHandle.USER_CURRENT) == 1);
+        mSmoothingEnabled.setOnPreferenceChangeListener(this);
         int customdimen = Settings.Secure.getIntForUser(getContentResolver(),
                 Settings.Secure.PULSE_CUSTOM_DIMEN, 14, UserHandle.USER_CURRENT);
         mCustomDimen = (CustomSeekBarPreference) findPreference(CUSTOM_DIMEN);
@@ -257,6 +262,12 @@ public class PulseSettings extends SettingsPreferenceFragment implements
                     Settings.Secure.FLING_PULSE_LAVALAMP_ENABLED, enabled ? 1 : 0,
                     UserHandle.USER_CURRENT);
             return true;
+        } else if (preference.equals(mSmoothingEnabled)) {
+            boolean enabled = ((Boolean) newValue).booleanValue();
+            Settings.Secure.putIntForUser(getContentResolver(),
+                    Settings.Secure.FLING_PULSE_SMOOTHING_ENABLED, enabled ? 1 : 0,
+                    UserHandle.USER_CURRENT);
+            return true;
         } else if (preference == mCustomDimen) {
             int val = (Integer) newValue;
             Settings.Secure.putIntForUser(getContentResolver(),
@@ -350,16 +361,16 @@ public class PulseSettings extends SettingsPreferenceFragment implements
 
      private void resetValues() {
 	ContentResolver resolver = getActivity().getContentResolver();
-        Settings.System.putInt(getContentResolver(),
-                Settings.System.FLING_PULSE_LAVALAMP_COLOR_TO, DEFAULT_TO);
+        Settings.Secure.putInt(getContentResolver(),
+                Settings.Secure.FLING_PULSE_LAVALAMP_COLOR_TO, DEFAULT_TO);
         mLavaLampColorTo.setNewPreviewColor(DEFAULT_TO);
         mLavaLampColorTo.setSummary(R.string.default_string);
-        Settings.System.putInt(getContentResolver(),
-                Settings.System.FLING_PULSE_LAVALAMP_COLOR_FROM, DEFAULT_FROM);
+        Settings.Secure.putInt(getContentResolver(),
+                Settings.Secure.FLING_PULSE_LAVALAMP_COLOR_FROM, DEFAULT_FROM);
         mLavaLampColorFrom.setNewPreviewColor(DEFAULT_FROM);
         mLavaLampColorFrom.setSummary(R.string.default_string);
-        Settings.System.putInt(getContentResolver(),
-                Settings.System.FLING_PULSE_COLOR, DEFAULT);
+        Settings.Secure.putInt(getContentResolver(),
+                Settings.Secure.FLING_PULSE_COLOR, DEFAULT);
         mPulseColor.setNewPreviewColor(DEFAULT);
         mPulseColor.setSummary(R.string.default_string);
     }
