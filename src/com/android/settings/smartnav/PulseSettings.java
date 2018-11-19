@@ -65,6 +65,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     private static final String FADING_LAVAMP_SPEED = "fling_pulse_lavalamp_speed";
     private static final String PULSE_SOLID_UNITS_COUNT = "pulse_solid_units_count";
     private static final String PULSE_SOLID_UNITS_OPACITY = "pulse_solid_units_opacity";
+    private static final String PULSE_FADING_BLOCKS_OPACITY = "pulse_fading_blocks_opacity";
     private static final String PULSE_CUSTOM_BUTTONS_OPACITY = "pulse_custom_buttons_opacity";
 
     static final int DEFAULT = 0xffffffff;
@@ -89,6 +90,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     CustomSeekBarPreference mFadingSpeed;
     CustomSeekBarPreference mSolidCount;
     CustomSeekBarPreference mSolidOpacity;
+	CustomSeekBarPreference mFadingOpacity;
     CustomSeekBarPreference mNavButtonsOpacity;
 
     @Override
