@@ -77,10 +77,18 @@
                 android:max="135"
                 settings:min="65"
                 settings:units="%" />
-        <PreferenceScreen
-            android:key="pulse_settings"
-            android:title="@string/pulse_settings"
-            android:summary="@string/pulse_settings_summary"
-            android:fragment="com.android.settings.smartnav.PulseSettings" />
     </PreferenceCategory>
+    <PreferenceScreen
+          android:key="pulse_settings"
+          android:title="@string/pulse_settings"
+          android:summary="@string/pulse_settings_summary"
+          android:fragment="com.android.settings.smartnav.PulseSettings" />
+
+    <com.syberia.settings.preference.SystemSettingSwitchPreference
+        android:key="pixel_nav_animation"
+        android:title="@string/pixel_navbar_anim_title"
+        android:summary="@string/pixel_navbar_anim_summary"
+        android:dependency="navbar_visibility"
+        android:defaultValue="true" />
+
 </PreferenceScreen>
