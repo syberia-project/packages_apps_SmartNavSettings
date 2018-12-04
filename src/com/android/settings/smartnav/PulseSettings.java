@@ -90,7 +90,7 @@ public class PulseSettings extends SettingsPreferenceFragment implements
     CustomSeekBarPreference mFadingSpeed;
     CustomSeekBarPreference mSolidCount;
     CustomSeekBarPreference mSolidOpacity;
-	CustomSeekBarPreference mFadingOpacity;
+    CustomSeekBarPreference mFadingOpacity;
     CustomSeekBarPreference mNavButtonsOpacity;
 
     @Override
@@ -214,12 +214,12 @@ public class PulseSettings extends SettingsPreferenceFragment implements
         mSolidOpacity.setValue(opacity);
         mSolidOpacity.setOnPreferenceChangeListener(this);
 
-        /*int buttonsOpacity = Settings.Secure.getIntForUser(getContentResolver(),
+        int buttonsOpacity = Settings.Secure.getIntForUser(getContentResolver(),
                 Settings.Secure.PULSE_CUSTOM_BUTTONS_OPACITY, 200, UserHandle.USER_CURRENT);
         mNavButtonsOpacity =
                 (CustomSeekBarPreference) findPreference(PULSE_CUSTOM_BUTTONS_OPACITY);
         mNavButtonsOpacity.setValue(buttonsOpacity);
-        mNavButtonsOpacity.setOnPreferenceChangeListener(this);*/
+        mNavButtonsOpacity.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -322,11 +322,11 @@ public class PulseSettings extends SettingsPreferenceFragment implements
             Settings.Secure.putIntForUser(getContentResolver(),
                     Settings.Secure.PULSE_SOLID_UNITS_OPACITY, val, UserHandle.USER_CURRENT);
             return true;
-        /*} else if (preference == mNavButtonsOpacity) {
+        } else if (preference == mNavButtonsOpacity) {
             int val = (Integer) newValue;
             Settings.Secure.putIntForUser(getContentResolver(),
                     Settings.Secure.PULSE_CUSTOM_BUTTONS_OPACITY, val, UserHandle.USER_CURRENT);
-            return true;*/
+            return true;
         }
         return false;
     }

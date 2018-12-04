@@ -75,12 +75,12 @@
         android:defaultValue="0xff8080ff"
         android:dependency="eos_fling_lavalamp" />
 
-    <!--com.syberia.settings.preference.CustomSeekBarPreference
+    <com.syberia.settings.preference.CustomSeekBarPreference
         android:key="pulse_custom_buttons_opacity"
         android:title="@string/pulse_custom_buttons_opacity_title"
         android:max="255"
         settings:min="0"
-        android:dependency="eos_fling_show_pulse"/-->
+	android:dependency="eos_fling_show_pulse"/>
 
     <PreferenceCategory
         android:key="pulse_fading_bars_category"
