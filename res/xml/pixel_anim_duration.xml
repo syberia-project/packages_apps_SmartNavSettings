@@ -100,19 +100,19 @@
         android:key="pixel_anim_color"
         android:title="@string/pixel_anim_color_title">
 
-         <com.android.settings.bliss.preference.ColorPickerPreference
+	 <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="dot_top_color"
             android:title="@string/dot_top_color_title" />
 
-         <com.android.settings.bliss.preference.ColorPickerPreference
+	 <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="dot_left_color"
             android:title="@string/dot_left_color_title" />
 
-         <com.android.settings.bliss.preference.ColorPickerPreference
+	 <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="dot_right_color"
             android:title="@string/dot_right_color_title" />
 
-         <com.android.settings.bliss.preference.ColorPickerPreference
+	 <net.margaritov.preference.colorpicker.ColorPickerPreference
             android:key="dot_bottom_color"
             android:title="@string/dot_bottom_color_title" />
 
