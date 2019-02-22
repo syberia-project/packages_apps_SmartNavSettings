@@ -1,0 +1,258 @@
+<!-- Copyright (C) 2018 Invictrix ROM
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+--><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- SmartNav -->
+    <string name="bottom_nav_navigation_title">Navegación</string>
+    <string name="navbar_interface_title">Interfaz</string>
+    <string name="navbar_size">Tamaño de la barra</string>
+    <string name="navbar_mode">Modo de navegación</string>
+    <string name="navbar_mode_summary">Selecciona qué modo de navegación utilizar en tu dispositivo</string>
+    <string name="navbar_visibility">Barra de navegación</string>
+    <string name="navigationbar_settings_summary">Personaliza el estilo de navegación y el comportamiento</string>
+    <string name="navbar_general_title">Avanzado</string>
+    <string name="navigation_bar_left_title">Modo zurdo</string>
+    <string name="navigation_bar_left_summary">Coloque la barra de navegación en el lado izquierdo de la pantalla en modo horizontal</string>
+    <string name="smartbar_interface">Barra inteligente</string>
+    <string name="icon_pack_picker_dialog_title">Paquetes de iconos</string>
+    <string name="image_exceeds_max_allowed_size">La imagen no debe exceder de 512x512.</string>
+    <string name="invalid_icon_from_uri">No se puede cargar la imagen del proveedor de contenido</string>
+    <string name="picker_activities">Actividades</string>
+    <string name="select_custom_app_title">Seleccione aplicación personalizada</string>
+    <string name="select_custom_activity_title">Seleccionar actividad personalizada</string>
+    <string name="profile_applist_title">Aplicaciones</string>
+    <string name="default_string">Stock</string>
+    <string name="default_settings">Ajustes de stock</string>
+    <string name="default_settings_summary">Barra de navegación de AOSP</string>
+
+    <!-- Actions dialog and default task values set in ActionPreference xml-->
+    <string name="choose_action_title">Elige Acción</string>
+    <string name="action_entry_default_action">Ajustes por defecto</string>
+    <string name="action_entry_select_app">Seleccionar aplicacion</string>
+    <string name="action_entry_custom_action">Seleccionar acción personalizada</string>
+    <string name="action_value_default_action" translatable="false">default</string>
+    <string name="action_value_select_app" translatable="false">app</string>
+    <string name="action_value_custom_action" translatable="false">custom</string>
+    <string name="action_value_back" translatable="false">task_back</string>
+    <string name="action_value_home" translatable="false">task_home</string>
+    <string name="action_value_search_assist" translatable="false">task_assist</string>
+    <string name="action_value_recent_apps" translatable="false">task_recents</string>
+    <string name="action_value_voice_search" translatable="false">task_voice_search</string>
+    <string name="action_value_menu" translatable="false">task_menu</string>
+
+    <!-- Fling -->
+    <string name="fling_settings">Ajustes de Fling</string>
+    <string name="fling_settings_summary">Una barra de navegación basada en gestos muy única y totalmente personalizable</string>
+    <string name="fling_interface">Fling</string>
+    <string name="fling_enable_title">Habilitar Fling</string>
+    <string name="fling_back_home_policy">Se requiere que Atrás y Inicio estén configurados en todo momento. Para cambiar una asignación de Atrás o Inicio, establezca primero la asignación deseada.\n\ n Además, establecer una acción de doble toque retrasará un solo toque un poco.</string>
+    <string name="fling_split_bar_policy">Cuando solo se asigna una acción derecha o izquierda, la acción se aplica a la barra completa</string>
+    <string name="fling_def_summary">Sin acción establecida</string>
+    <string name="fling_swipe_actions">Gestos de deslizar</string>
+    <string name="fling_tap_actions">Toques gestos</string>
+    <string name="fling_short_swipe_right">Deslizamiento corto derecho</string>
+    <string name="fling_short_swipe_left">Deslizamiento corto a la izquierda</string>
+    <string name="fling_long_swipe_right">Deslizamiento largo derecho</string>
+    <string name="fling_long_swipe_left">Deslizamiento largo a la izquierda</string>
+    <string name="fling_right_up_swipe">Lado derecho deslizar hacia arriba</string>
+    <string name="fling_left_up_swipe">Lado izquierdo deslizar hacia arriba</string>
+    <string name="fling_single_tap">Un solo toque a la derecha</string>
+    <string name="fling_double_tap">Doble toque a la derecha</string>
+    <string name="fling_long_press">Pulsar a la derecha</string>
+    <string name="fling_single_left_tap">Un solo toque a la izquierda</string>
+    <string name="fling_double_left_tap">Doble toque a la izquierda</string>
+    <string name="fling_long_left_press">Pulsar largo a la izquierda</string>
+    <string name="long_swipe_portrait_title">Retrato</string>
+    <string name="long_swipe_landscape_title">Apaisado</string>
+    <string name="portrait_right_swipe_title">Deslizamiento retrato a la derecha</string>
+    <string name="portrait_left_swipe_title">Deslizamiento retrato a la izquierda</string>
+    <string name="landscape_right_swipe_title">Deslizamiento derecho apaisado</string>
+    <string name="landscape_left_swipe_title">Deslizamiento a la izquierda apaisado</string>
+    <string name="vertical_up_swipe_title">Deslizamiento vertical hacia arriba</string>
+    <string name="vertical_down_swipe_title">Deslizamiento vertical hacia abajo</string>
+    <string name="up_swipe_title">Deslizar hacia arriba</string>
+    <string name="down_swipe_title">Deslizar hacia abajo</string>
+    <string name="long_swipe_reset">Reiniciar</string>
+    <string name="fling_advanced">Avanzado</string>
+    <string name="fling_long_swipe_title">Umbrales de barrido largo</string>
+    <string name="fling_long_swipe_summary">Ajuste los umbrales de barrido largo en función del porcentaje de ancho o alto de la interfaz Fling</string>
+    <string name="fling_trails_enable_title">Habilitar senderos de gestos</string>
+    <string name="fling_trails_enable_summary">Mostrar un rastro en gestos de deslizar</string>
+    <string name="fling_trails_color_title">Color del camino</string>
+    <string name="fling_trails_width_title">Ancho del sendero</string>
+    <string name="fling_appearance">Apariencia</string>
+    <string name="fling_show_logo_title">Mostrar logo de Fling</string>
+    <string name="fling_animate_logo_title">Animar logo</string>
+    <string name="fling_animate_logo_summary">Animación del logo en eventos táctiles</string>
+    <string name="fling_logo_color">Color del logo</string>
+    <string name="fling_logo_custom_logo_pick_title">Icono de logotipo personalizado</string>
+    <string name="fling_logo_custom_logo_image_pick_title">Imagen de logotipo personalizada</string>
+    <string name="fling_logo_custom_logo_reset_title">Restablecer el icono del logotipo</string>
+    <string name="fling_show_ripple_title">Mostrar ondulación</string>
+    <string name="fling_show_ripple_summary">Efecto de ondulación en eventos táctiles</string>
+    <string name="fling_ripple_color">Color de ondulación</string>
+    <string name="fling_longpress_timeout_label_left">Menos retraso</string>
+    <string name="fling_longpress_timeout_label_right">Más retraso</string>
+    <string name="fling_longpress_title">Retraso de pulsación larga</string>
+    <string name="fling_longpress_summary">Aumente o disminuya el tiempo que lleva ejecutar una pulsación larga</string>
+    <string name="fling_keyboard_cursors_title">Teclados dinamicos de accion</string>
+    <string name="fling_keyboard_cursors_summary">Las acciones de doble toque hacia la izquierda y hacia la derecha se convierten en acciones de cursor hacia la izquierda y hacia la derecha si el teclado está abierto</string>
+    <string name="fling_logo_opacity_title">Logo opacidad de fling</string>
+    <string name="fling_factory_reset_title">Restablecer a stock</string>
+    <string name="fling_factory_reset_confirm">¿Está seguro de que desea restablecer Fling a la configuración de stock?</string>
+    <string name="fling_backup_current_config_title">Guardar perfil</string>
+    <string name="fling_restore_config_title">Restaurar perfil</string>
+    <string name="fling_config_name_edit_dialog_title">Nombre del perfil de Fling</string>
+    <string name="fling_config_name_edit_dialog_message">Ingrese nombre o deje en blanco</string>
+    <string name="fling_config_dialog_title">Perfiles de fling</string>
+    <string name="fling_config_backup_success_toast">Perfil de Fling guardado exitosamente</string>
+    <string name="fling_config_restore_success_toast">Perfil de Fling restaurado exitosamente</string>
+    <string name="fling_config_backup_error_toast">Error al guardar el perfil de Fling</string>
+    <string name="fling_config_restore_error_toast">Error al restaurar el perfil de Fling</string>
+
+    <!-- Pulse navigation bar music visualizer -->
+    <string name="pulse_help_policy_notice_summary">Pulso no funciona con algunas fuentes de audio cuando se escucha en el altavoz del dispositivo</string>
+    <string name="pulse_settings">Pulso</string>
+    <string name="pulse_settings_summary">Ecualizador gráfico de audio de barra de navegación</string>
+    <string name="fling_show_pulse_title">Permitir pulso</string>
+    <string name="fling_show_pulse_summary">Ecualizador gráfico de audio en la barra de navegación</string>
+    <string name="pulse_render_mode_title">Modo de renderizado</string>
+    <string name="pulse_render_mode_fading_bars">Bloques de desvanecimiento</string>
+    <string name="pulse_render_mode_solid_lines">Lineas solidas</string>
+    <string name="fling_pulse_color">Color de pulso</string>
+    <string name="fling_pulse_color_summary">Utilizado también como alternativa para el color automático</string>
+    <string name="eos_fling_lavalamp_title">Encender lampara de lava</string>
+    <string name="eos_fling_lavalamp_summary">Pulso anima una suave mezcla de colores de estilo de lámpara de lava</string>
+    <string name="pulse_advanced_category">Avanzado</string>
+    <string name="pulse_legacy_mode_advanced_category">Ajustes de modo de bloques de desvanecimiento</string>
+    <string name="pulse_custom_fudge_factor">Nivel de cordura</string>
+    <string name="lavamp_solid_speed_title">Velocidad de la lámpara de lava</string>
+    <string name="pulse_solid_units_count">Conteo de lineas continuas</string>
+    <string name="pulse_solid_lines_count">Conteo de lineas continuas</string>
+    <string name="pulse_solid_units_opacity">Líneas opacas de opacidad</string>
+    <string name="pulse_solid_dimen_category">Configuraciones de modo líneas continuas</string>
+    <string name="pulse_custom_buttons_opacity_title">Opacidad de los botones de la barra inteligente en el pulso</string>
+    <string name="pulse_auto_color_title">Color de pulso automático</string>
+    <string name="pulse_auto_color_summary">Sincronización del color con las carátulas del álbum. Anula la lámpara de lava y opaca las líneas</string>
+
+    <!-- Pulse config -->
+    <string name="pulse_custom_dimen">Ancho de barra</string>
+    <string name="pulse_custom_div">Espacio entre barras</string>
+    <string name="pulse_filled_block_size">Tamaño de bloque</string>
+    <string name="pulse_empty_block_size">Espacio entre bloques</string>
+
+    <!-- Navbar height -->
+    <string name="navigation_bar_size_title">Tamaño de la barra</string>
+    <string name="portrait_title">Altura en retrato</string>
+    <string name="land_vert_title">Ancho en paisaje</string>
+    <string name="land_hor_title">Altura en paisaje</string>
+    <string name="positive_done">Hecho</string>
+
+    <!-- SmartBar -->
+    <string name="smartbar_category">Barra inteligente</string>
+    <string name="smartbar_settings_title">Ajustes de barra inteligente</string>
+    <string name="smartbar_settings_summary">Barra de navegación totalmente personalizable</string>
+     <string name="smartbar_editor_title">Iniciar modo de edición</string>
+    <string name="smartbar_editor_summary">Abrir editor de botones de smartbar</string>
+    <string name="smartbar_help_policy_notice_summary">Cuando esté en el modo de editor, presione de manera intermedia y arrastre un botón para cambiar su posición o presione prolongadamente un botón para mostrar el menú de edición. La posición del botón puede cambiarse mientras se muestra el menú.\n\nEl ajuste de una acción de doble toque demorara un solo toque un poco.</string>
+    <string name="smartbar_context_menu_position_title">Posición de diseño de los botones de contexto</string>
+    <string name="smartbar_context_menu_position_summary">Ajuste la posición de los botones contextuales, como el menú y el selector de imagen</string>
+    <string name="smartbar_right">Derecha</string>
+    <string name="smartbar_left">Izquierda</string>
+    <string name="smartbar_button_animation_title">Animación de botones</string>
+    <string name="smartbar_button_animation_summary">Establece el estilo de animación de los botones primarios cuando se presionan</string>
+    <string name="smartbar_button_animation_ripple">Onda</string>
+    <string name="smartbar_button_animation_spring">Primavera</string>
+    <string name="smartbar_button_animation_flip">Dar la vuelta</string>
+    <string name="smartbar_button_animation_pixel">Pixel (todos los botones)</string>
+    <string name="smartbar_button_animation_pixel_home">Pixel (botón de inicio solamente)</string>
+    <string name="smartbar_button_animation_pixel_home_ripple">Pixel (solo botón de inicio) y Ripple</string>
+    <string name="smartbar_factory_reset_title">Restablecer a stock</string>
+    <string name="smartbar_factory_reset_confirm">¿Está seguro de que desea restablecer la barra inteligente a la configuración de stock?</string>
+    <string name="smartbar_ime_action_title">Método de entrada y acciones de medios</string>
+    <string name="smartbar_ime_action_summary">Establecer qué botones mostrar cuando se muestra un teclado en pantalla o cuando se reproduce música</string>
+    <string name="smartbar_ime_action_none">Ninguna</string>
+    <string name="smartbar_ime_action_arrows">Flechas de entrada</string>
+    <string name="smartbar_ime_action_switcher">Conmutador de teclado</string>
+    <string name="smartbar_ime_action_dynamic">Flechas de entrada/medios</string>
+    <string name="smartbar_backup_current_config_title">Guardar perfil</string>
+    <string name="smartbar_restore_config_title">Restaurar perfil</string>
+    <string name="smartbar_config_name_edit_dialog_title">Nombre del perfil de barra inteligente</string>
+    <string name="smartbar_config_name_edit_dialog_message">Ingrese nombre o deje en blanco</string>
+    <string name="smartbar_config_dialog_title">Perfiles de la barra inteligente</string>
+    <string name="smartbar_config_backup_success_toast">Perfil de barra inteligente guardado correctamente</string>
+    <string name="smartbar_config_restore_success_toast">Perfil de barra inteligente restaurado con éxito</string>
+    <string name="smartbar_config_backup_error_toast">Error al guardar el perfil de barra inteligente</string>
+    <string name="smartbar_config_restore_error_toast">Error al restaurar el perfil de barra inteligente</string>
+    <string name="navbar_buttons_alpha_title">Transparencia de botones</string>
+    <string name="smartbar_longpress_delay_title">Botón de pulsación larga</string>
+    <string name="smartbar_longpress_delay_summary">Establezca cuánto tiempo esperará el sistema antes de iniciar una acción de impresión prolongada</string>
+    <string name="smartbar_longpress_delay_default">Retardo predeterminado (rápido)</string>
+    <string name="smartbar_longpress_delay_normal">Retraso normal</string>
+    <string name="smartbar_longpress_delay_long">Retraso largo</string>
+    <string name="smartbar_custom_icon_size_title">Escala de iconos personalizados</string>
+    <string name="one_handed_mode_title">Modo una mano</string>
+    <string name="one_handed_mode_summary">Permite deslizar la barra de navegación para habilitar el modo con una sola mano</string>
+    <string name="smartbar_double_tap_sleep_title">Doble toque para dormir</string>
+    <string name="smartbar_double_tap_sleep_summary">Doble toque en las áreas de la barra de navegación vacía para dormir</string>
+    <string name="reset">Reiniciar</string>
+    
+    <string name="fling_lavalamp_color_from">Lampara de lava color de inicio</string>
+    <string name="fling_lavalamp_color_to">Lámpara de lava color final</string>
+    <string name="pulse_colors_reset_title">Restablecer los colores del pulso</string>
+    <string name="pulse_colors_reset_message">¿Estás seguro de que deseas restablecer estos colores a los valores predeterminados?</string>
+    <string name="fling_smoothing_enabled_title">Encender suavizado</string>
+    <string name="fling_smoothing_enabled_summary">Cada barra se animará más suavemente</string>
+    <string name="pulse_fading_blocks_opacity">Bloqueo de opacidad de bloques</string>
+	<string name="pulse_blacklist_title">Lista negra de aplicaciones</string>
+    <string name="pulse_blacklist_summary">Aplicaciones que no deben mostrar el pulso</string>
+    <string name="pulse_blacklist_apps_cat_title">Lista negra</string>
+    <string name="pulse_blacklist_apps_title">Lista negra de aplicaciones</string>
+    <string name="pulse_blacklist_apps_summary">Aplicaciones para no mostrar en el panel</string>
+    <string name="pulse_blacklist_add_apps_title">Añadir aplicación</string>
+    <string name="pulse_blacklist_add_apps_summary">Toque aquí para agregar, toque en la aplicación agregada para eliminarlo</string>
+
+    <!-- Onehand UI mode -->
+    <string name="one_hand_mode_title">Habilitar usando el modo de una mano</string>
+    <string name="one_hand_mode_summary">Permitir deslizar a la derecha o izquierda en la barra de navegación para habilitar</string>
+
+    <!-- Pixel Animation Settings -->
+    <string name="pixel_anim_title">Animación Pixel barra de navegación </string>
+    <string name="pixel_anim_summary">Personaliza varios elementos de animación de píxeles en la barra de navegación</string>
+    <string name="pixel_anim_warning">Personaliza varios elementos de animación de píxeles en la barra de navegación. ¡ADVERTENCIA! Cambiar los valores predeterminados puede provocar una caída en el rendimiento de la animación. Continúe bajo su propio riesgo</string>
+    <string name="pixel_anim_x_title">Duración horizontal</string>
+    <string name="pixel_anim_y_title">Duración vertical</string>
+    <string name="collapse_anim_duration_ry_title">Duración del colapso</string>
+    <string name="collapse_anim_duration_bg_title">Colapso de fondo</string>
+    <string name="retract_anim_duration_title">Duración de retracción</string>
+    <string name="diamond_anim_duration_title">Duración del diamante</string>
+    <string name="dots_anim_duration_title">Duracion de puntos</string>
+    <string name="home_resize_anim_duration_title">Duración del cambio de botón</string>
+    <string name="pixel_anim_color_title">Colores de puntos</string>
+    <string name="dot_top_color_title">Punto superior</string>
+    <string name="dot_bottom_color_title">Punto inferior</string>
+    <string name="dot_left_color_title">Punto izquierdo</string>
+    <string name="dot_right_color_title">Punto derecho</string>
+    <string name="dot_obey_themes">Predeterminado (color del tema)</string>
+    <string name="dot_custom_color">Personalizado</string>
+    <string name="dot_random_color">Aleatorio</string>
+    <string name="dot_random_color_more">Muy aleatorio</string>
+    <string name="dot_color_switch_title">Estilo</string>
+    <string name="dlg_reset_android">Defecto</string>
+    <string name="dlg_reset_xtended">Reiniciar</string>
+
+    <!-- Navbar Animation -->
+    <string name="pixel_navbar_anim_title">Animación pixel</string>
+    <string name="pixel_navbar_anim_summary">Alternar la animación del botón de inicio. Funciona solo con la barra de navegación de AOSP predeterminada</string>
+ 
+</resources>
