@@ -239,7 +239,7 @@
     <string name="dlg_reset_bliss">Özel</string>
 
     <!-- Navbar Animation -->
-    <string name="pixel_navbar_anim_title=">Pixel animasyonu</string>
+    <string name="pixel_navbar_anim_title">Pixel animasyonu</string>
     <string name="pixel_navbar_anim_summary">Ana ekran animasyonu arasında geçiş yap. Yalnızca varsayılan aosp gezinme çubuğu ile çalışır</string>
 
     <!-- Onehand UI mode -->
